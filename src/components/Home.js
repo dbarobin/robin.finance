@@ -19,6 +19,10 @@ export default function Home() {
         I'm a partner at <Code>Exin</Code>, a startup firm focused on cryptocurrencies.
       </p>
 
+       <p style={s.p}>
+        I have a history of many years in the Internet but have a particular interest in finance, including CeFi and DeFi.
+      </p>
+
       <Interactive
         as="a"
         href="https://twitter.com/vrwio"
