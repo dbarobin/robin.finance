@@ -30,6 +30,7 @@ export default function Home() {
       <Interactive
         as="a"
         href="https://dbarobin.com"
+        target="_blank"
         {...s.link}
       >Blog</Interactive>
 
@@ -38,6 +39,7 @@ export default function Home() {
       <Interactive
         as="a"
         href="https://twitter.com/vrwio"
+        target="_blank"
         {...s.link}
       >Twitter</Interactive>
 
@@ -54,6 +56,7 @@ export default function Home() {
       <Interactive
         as="a"
         href="https://github.com/dbarobin"
+        target="_blank"
         {...s.link}
       >GitHub</Interactive>
 
@@ -62,6 +65,7 @@ export default function Home() {
       <Interactive
         as="a"
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x9CD45A5A&fingerprint=on&op=index"
+        target="_blank"
         {...s.link}
       >PGP</Interactive>
     </div>
