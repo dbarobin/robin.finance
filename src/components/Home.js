@@ -23,6 +23,10 @@ export default function Home() {
         I have a history of many years in the Internet but have a particular interest in finance, including CeFi and DeFi.
       </p>
 
+       <p style={s.p}>
+        Meanwhile, I am committed to the promotion of privacy technology and the popularity of blockchain, cryptocurrency, and bitcoin.
+      </p>
+
       <Interactive
         as="a"
         href="https://twitter.com/vrwio"
