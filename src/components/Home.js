@@ -25,11 +25,15 @@ export default function Home() {
         {...s.link}
       >vrwio</Interactive>
 
+      &nbsp;
+
       <Interactive
         as="a"
         href="https://dbarobin.com"
         {...s.link}
       >Blog</Interactive>
+
+      &nbsp;
 
       <Interactive
         as="a"
