@@ -24,7 +24,7 @@ export default function Home() {
       </p>
 
        <p style={s.p}>
-        Meanwhile, I am committed to the promotion of privacy technology and the popularity of blockchain, cryptocurrency, and bitcoin.
+        Meanwhile, I'm committed to the promotion of privacy technology and the popularity of blockchain, cryptocurrency, and bitcoin.
       </p>
 
       <Interactive
