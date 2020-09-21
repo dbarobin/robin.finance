@@ -29,14 +29,6 @@ export default function Home() {
 
       <Interactive
         as="a"
-        href="https://twitter.com/vrwio"
-        {...s.link}
-      >Twitter</Interactive>
-
-      &nbsp;
-
-      <Interactive
-        as="a"
         href="https://dbarobin.com"
         {...s.link}
       >Blog</Interactive>
@@ -45,9 +37,25 @@ export default function Home() {
 
       <Interactive
         as="a"
+        href="https://twitter.com/vrwio"
+        {...s.link}
+      >Twitter</Interactive>
+
+      &nbsp;
+
+      <Interactive
+        as="a"
         href="mailto:blockxyz@gmail.com"
         {...s.link}
       >Email</Interactive>
+
+      &nbsp;
+
+      <Interactive
+        as="a"
+        href="https://github.com/dbarobin"
+        {...s.link}
+      >GitHub</Interactive>
 
       &nbsp;
 
