@@ -20,7 +20,7 @@ export default function Home() {
       </p>
 
        <p style={s.p}>
-        I have a history of many years in the Internet but have a particular interest in finance, including CeFi and DeFi.
+        I have many years of technical experience in the Internet industry and have a particular interest in finance, including CeFi and DeFi.
       </p>
 
        <p style={s.p}>
