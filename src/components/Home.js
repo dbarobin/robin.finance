@@ -16,14 +16,14 @@ export default function Home() {
   return (
     <div>
       <p style={s.p}>
-        I'm a partner of <Code>Exin</Code>, a startup firm focused on cryptocurrencies.
+        I'm a partner at <Code>Exin</Code>, a startup firm focused on cryptocurrencies.
       </p>
 
       <Interactive
         as="a"
         href="https://twitter.com/vrwio"
         {...s.link}
-      >vrwio</Interactive>
+      >Twitter</Interactive>
 
       &nbsp;
 
@@ -40,6 +40,14 @@ export default function Home() {
         href="mailto:blockxyz@gmail.com"
         {...s.link}
       >Email</Interactive>
+
+      &nbsp;
+
+      <Interactive
+        as="a"
+        href="https://keyserver.ubuntu.com/pks/lookup?search=0x9CD45A5A&fingerprint=on&op=index"
+        {...s.link}
+      >PGP</Interactive>
     </div>
   );
 }
