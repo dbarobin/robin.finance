@@ -18,14 +18,6 @@ export default function Home() {
       <p style={s.p}>
         I'm a partner of <Code>Exin</Code>, a startup firm focused on cryptocurrencies.
       </p>
-
-      <div style={s.pageLinkContainer}>
-        <Interactive
-          as={a}
-          {...s.link}
-          href="https://twitter.com/vrwio"
-        >@vrwio</Interactive>
-      </div>
     </div>
   );
 }
