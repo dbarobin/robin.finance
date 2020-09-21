@@ -10,21 +10,13 @@ import s from '../styles/app.style';
 export default function App() {
   return (
     <div style={s.root}>
-      <h1 style={s.title}>Single Page Apps for GitHub Pages</h1>
-      <Interactive
-        as="a"
-        href="https://github.com/dbarobin/robin.finance"
-        style={s.repoLink}
-        {...s.link}
-      >https://github.com/dbarobin/robin.finance</Interactive>
+      <h1 style={s.title}>Robin Wen</h1>
 
       <nav style={s.breadcrumbs}>
         <Breadcrumbs />
       </nav>
 
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/example" component={ExampleComponent} />
         <Route component={PageNotFound} />
       </Switch>
 
