@@ -12,11 +12,9 @@ export default function App() {
     <div style={s.root}>
       <h1 style={s.title}>Robin Wen</h1>
 
-      <nav style={s.breadcrumbs}>
-        <Breadcrumbs />
-      </nav>
-
       <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/example" component={ExampleComponent} />
         <Route component={PageNotFound} />
       </Switch>
 
